@@ -48,7 +48,7 @@ public class VirtualBeanFactory {
     private static final String GET_METHOD_PATTERN = VirtualBean.GET_PREFIX + ".+";
     private static final int GET_PREFIX_SIZE = VirtualBean.GET_PREFIX.length();
     private static final List<Class> SUPPORTED_TYPES
-            = asList(int.class, Integer.class, double.class, Double.class, String.class, Map.class, List.class);
+            = asList(int.class, Integer.class, double.class, Double.class, String.class, Map.class, List.class, Boolean.class);
 
     private final BeanValidator beanValidator;
 
